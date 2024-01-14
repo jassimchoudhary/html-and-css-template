@@ -1,0 +1,115 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    /* To set default styles (if needed) */
+
+}
+
+:root {
+    /* Colors */
+    --main-color: ;
+    --secondary-color: ;
+    --background-color: ;
+    --text-color: ;
+    --link-color: ;
+    --visited-link-color: ;
+    --hover-link-color: ;
+    --accent-color: ;
+    --error-color: ;
+    --success-color: ;
+    --warning-color: ;
+    --info-color: ;
+    --highlight-color: ;
+    --disabled-color: ;
+
+    /* Typography */
+    --font-family: ;
+    --font-size: ;
+    --line-height: ;
+    --font-weight: ;
+    --letter-spacing: ;
+
+    /* Spacing */
+    --spacing-unit: ;
+
+    /* Borders & Box Model */
+    --border-radius: ;
+    --border-width: ;
+    --border-color: ;
+    --box-shadow: ;
+    --outline-color: ;
+    --outline-width: ;
+
+    /* Responsive Design */
+    --media-query-xs: 0;
+    --media-query-sm: 576px;
+    --media-query-md: 768px;
+    --media-query-lg: 992px;
+    --media-query-xl: 1200px;
+    --media-query-xxl: 1400px;
+
+    /* Custom Breaking Points */
+    --breakpoint-small: ;
+    --breakpoint-medium: ;
+    --breakpoint-large: ;
+
+    /* Icons */
+    --icon-size: ;
+    --icon-color: ;
+    --icon-background-color: ;
+    --icon-hover-color: ;
+
+    /* Miscellaneous */
+    --miscellaneous-variables: ;
+
+    /* Transition Variables */
+    --transition-duration: ;
+    --transition-property: ;
+    --transition-timing-function: ;
+
+    /* Keyframe Animation Variables */
+    --animation-name: ;
+    --animation-duration: ;
+    --animation-timing-function: ;
+    --animation-iteration-count: ;
+
+    /* Other Animation Variables */
+    --spin-duration: ;
+    --fade-duration: ;
+
+    /* Responsive Design Styles */
+    @media screen and (max-width: var(/* --media-query-sm or --breakpoint-small */)) {
+        /* Custom styles for small screens and below */
+
+    }
+
+    @media screen and (max-width: var(/* --media-query-md or --breakpoint-medium */)) {
+        /* Custom styles for medium screens and below */
+
+    }
+
+    @media screen and (min-width: var(/* --media-query-xl */)) {
+        /* Custom styles for extra-large screens and above */
+
+    }
+}
+
+/* CSS Styling */
+
+
+/* Responsive Design Media Queries */
+@media only screen and (max-width: var(/* --media-query-sm or --breakpoint-small */)) {
+    /* Media query for small screens and below */
+
+}
+
+@media only screen and (max-width: var(/* --media-query-md or --breakpoint-medium */)) {
+    /* Media query for medium screens and below */
+
+}
+
+@media only screen and (min-width: var(/* --media-query-xl */)) {
+    /* Media query for extra-large screens and above*/
+
+}
